@@ -1,0 +1,5 @@
+# You can have the password if you can execute me!!!
+# google how to run a python script
+import base64
+message = "UmlzZSB1cCB0aGlzIG1vcm5pbicKU21pbGUgd2l0aCB0aGUgcmlzaW4nIHN1bgpUaHJlZSBsaXR0bGUgYmlyZHMKUGl0Y2ggYnkgbXkgZG9vcnN0ZXAKU2luZ2luJyBzd2VldCBzb25ncwpPZiBtZWxvZGllcyBwdXJlIGFuZCB0cnVlClNheWluJywgKCJUaGlzIGlzIG15IG1lc3NhZ2UgdG8geW91LW91 LW91IikKCi0tVGhyZWUgbGl0dGxlIGJpcmRzLCBCb2IgTWFybGV5Cg== "
+print(base64.b64decode(message))

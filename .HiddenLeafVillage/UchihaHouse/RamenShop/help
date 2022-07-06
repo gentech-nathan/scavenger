@@ -1,0 +1,7 @@
+Well it seems like there are too many ninja clones, I'll give you this command to use. I made this special command is able to find the real ninja.
+
+
+cat * | grep Password
+
+
+
